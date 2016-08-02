@@ -1,0 +1,455 @@
+body {
+	overflow-x : hidden;
+	background : #FFF;
+	color : #FFF;
+	text-align : center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+/*  BOOTSTRAP SCAFOLDING */ 
+.mainContent {
+    position: absolute;
+    top: 43px;
+    width : 100%;
+}
+
+.myTitle_bootstrapComponent {
+    opacity : 3;  
+    color : #000;
+    font-size : 36px;
+    background: #578;   
+    font-family: 'Arvo';
+}
+
+.dropShadow {
+    -webkit-box-shadow: 5px 5px 5px 3px rgba(222,222,222,0.7);
+    box-shadow: 5px 5px 5px 3px rgba(222,222,222,0.7);
+}
+
+.backgroundIMG_carpet {
+    background-image: url("c2.jpg");
+    text-align : center;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+
+.galleryImg_container {
+    padding-top : 10px;
+}
+
+.galleryImg_container img {
+    border : 1px solid black;
+    width : 90%;
+    height : auto;
+}
+
+
+/*  Css Comment  */
+.ruvoPage {
+	margin-top : 40px;
+    border-top : #aeaeae solid 3px;
+}
+
+.ruvoPage_title {
+    font-size : 24px;
+	font-family:'Ubuntu Condensed', sans-serif;
+	font: bolder;	
+}
+	
+#sMedia{
+    position: absolute;
+    margin-top: 198px;
+    z-index: 999;
+    vertical-align: top;
+    height: 30px;
+    width:30px;
+
+
+}
+
+#appBody {
+	position: absolute;
+	top : 300px;
+	width : 100%;
+	background : #354;
+	color : #111;
+	border-left: #FFF solid 5px;
+	border-right: #FFF solid 5px;
+	font-size: 18px;
+    z-index: 1000000000;
+}
+
+.navbar-fixed-bottom{
+    background: #222 ;
+    height:10px;
+    z-index: 100000;
+}
+
+.navbar-nav{
+	position:absolute;
+	top:8px;
+}
+
+
+#arr{
+	left:980px;
+	top:5px;
+    color: #FFF
+    background: #222
+}
+
+#arr1{
+     font:30px;
+     top:5px;
+
+
+}
+
+#myNavi {
+	background : #666;
+	position: absolute;
+	z-index : 999;
+    left : 0%;
+	width : 100%;
+	height : 30px;
+	position: fixed;
+}
+
+.ruvo_navi_button { 
+	font-size: 20px; 
+}
+
+#myTitle {
+    position:absolute;
+	z-index: 500;
+    top : 33px;
+    width: 100%;
+	opacity : 3;  
+    color : #000;
+	font-size : 36px;
+	background: #578;	
+    font-family: 'Arvo';
+}
+
+#demoG{
+    position: absolute;
+    width: 400px;
+    height:300px;
+    top:80px;
+    right:80px;
+}
+
+#icon{
+      position: absolute;
+      height: 49px;
+      width: 49px;
+      top: 32px;
+      right: 1300px;
+      background: red;
+}
+
+#myIMG1 {
+	position: absolute;
+	left : 0%;
+    top : 70px;
+	z-index : 100;
+	margin : 18px;
+	margin-top: 35px;
+	margin-left: 602px;
+    width : 11%;
+	height : 20%;
+	display: block;
+
+}
+
+#ai {
+    position: absolute;
+    left : 1000px;
+    top : 800px;
+    z-index : 120;
+    margin : 18px;
+    margin-top: 0px;
+    width : 270px;
+    height : 150px;
+    border : #444 solid 1px;
+    }
+    
+#html {
+    position: absolute;
+    left : 100px;
+    top : 550px;
+    z-index : 120;
+    margin : 18px;
+    margin-top: 0px;
+    width : 270px;
+    height : 150px;
+    border : #222 solid 1px;
+}
+ 
+#js {
+    position: absolute;
+    left : 1050px;
+    top : 550px;
+    z-index : 500px;
+    margin : 18px;
+    margin-top: 0px;
+    width : 270px;
+    height : 150px;
+    border : #222 solid 1px;
+    background: #149;
+    
+}
+
+#ableImg {
+    position: absolute;
+    left : 0%;
+    top : 1200px;
+    z-index : 100;
+    margin-left: 20px;  
+    width : 300px;
+    height : 150px;
+    border : #222 solid 1px;
+    background: #888;
+
+}
+
+#ableImg2 {
+    position: absolute;
+    left : 100px;
+    top : 600px;
+    z-index : 100;
+    margin-left: 20px;  
+    width : 270px;
+    height : 150px;
+    border : #444 solid 1px;
+    background: #888;
+}
+
+#I3 {
+	position: absolute;
+	left : 680px;
+	top : 1200px;
+	z-index : 120;
+	margin : 18px;
+	margin-top: 0px;
+	width : 300px;
+	height : 150px;
+	border : #222 solid 1px;
+}
+
+#I4 {
+    position: absolute;
+    left : 340px;
+    top : 1200px;
+    z-index : 120;
+    margin : 18px;
+    margin-top: 0px;
+    width : 300px;
+    height : 150px;
+    border : #222 solid 1px;
+}
+
+#I5 {
+    position: absolute;
+    left : 1010px;
+    top : 1200px;
+    z-index : 120;
+    margin : 18px;
+    margin-top: 0px;
+    width : 300px;
+    height : 150px;
+    border : #222 solid 1px;
+}
+	
+#I6 {
+	position: absolute;
+	left: 900px;
+	top:105px;
+	width: 300px;
+	height: 140px;
+
+    }
+
+
+
+#I7 {
+	position: absolute;
+	left: 160px;
+	top:105px;
+	width: 300px;
+	height: 140px
+}
+
+#I8 {
+	position: absolute;
+	left: 220px;
+	top:800px;
+	width: 350px;
+	height: 180px
+	
+}
+
+#I9 {
+	position: absolute;
+	left: 790px;
+	top:900px;
+	width: 350px;
+	height: 190px
+	
+}
+
+#I10 {
+	margin-top:20px;
+	width: 350px;
+	height: 190px;
+	
+}
+
+#I11 {
+	margin-top:170px;
+	width: 350px;
+	height: 190px;
+	background: #240;
+}
+
+#rec {
+    position: absolute;
+    left : 900px;
+    top : 650px;
+    z-index : 120;
+    margin-top: 100px;
+    width : 120px;
+    height : 100px;
+  
+}
+	
+#vid1 {
+    position: absolute;
+    top:600px;
+    left:10px;
+}
+
+#vid2 {
+    position: absolute;
+    top:600px;
+    left: 480px;
+}
+
+#vid3 {
+    position: absolute;
+    top:600px;
+    left: 945px;
+}
+
+#Alcove { 
+	top:550px;
+    z-index:1000;
+    right: 370px;
+
+
+}
+
+#Alcove1{
+    margin: 10px;
+}
+
+#mali {
+    margin: 10px;
+}
+#claw{
+    margin: 10px;
+}
+#tokyo{
+    margin: 10px;
+}
+#blinded{
+    margin: 10px;
+}
+#molten{
+    margin: 10px;
+}
+
+.songtrack {
+    position: absolute;
+    width:100;
+    padding: 100px
+
+}
+ 
+
+
+#badge1 {
+  	left: 800px;
+  	margin-top:950px;
+}
+
+#imageContainer {  
+    left: 500px;
+    top:1000px;
+	background: #349;
+}
+
+#p6 {
+	
+	background:#897;
+}
+
+#p0{
+    background: #354;
+    font-family: 'Cabin';
+    font-size: 25px;
+}
+
+#p1 {
+    background:;
+    font-family: 'Arvo';
+}
+
+#p3 {
+    background: ;
+    font-family: 'Arvo';
+}
+#p4 {
+    background: ;
+    font-family: 'Arvo';
+}
+#p5 {
+    background: ;
+    font-family: 'Arvo';
+}
+
+
+
+
+
+.myItem {
+	background : #444;
+	font-family: 'Seaweed Script', cursive;
+}      
+	
+.header1 {
+	background: #633;
+	margin-top: 12px;
+}
+    
+.header2 {
+    background: #632;
+	margin-top: 12px;
+}
+    
+.header3 {
+    background: #631;
+	margin-top: 12px;
+}
+
+#sa_contactdiv{
+    position: absolute;
+	width: 273px;
+	height: 250px;
+	top:370px;
+	left:650px;
+	background: #868;
+    z-index: 1000000000
+	
+}

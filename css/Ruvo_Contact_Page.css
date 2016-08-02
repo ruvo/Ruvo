@@ -1,0 +1,29 @@
+/*Ruvo_Contact_Page.css*/
+.contactForm_ROW select {
+	color : black;
+}
+
+.contactForm_ROW input {
+	width : 80%;
+	text-align : center;
+	color : black;
+}
+
+.contactForm_ROW textarea {
+	width : 80%;
+	text-align : center;
+	color : black;
+}
+
+/* SUBMIT FORM BUTTON */
+.contactForm_ROW button {
+	width : 80%;
+	text-align : center;
+	color : black;
+}
+
+
+.contactForm_Heading {
+	padding-top : 32px;
+	padding-bottom : 32px;
+}

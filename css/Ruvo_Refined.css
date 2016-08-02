@@ -1,0 +1,160 @@
+body {
+    overflow-x : hidden;
+    background : #FFF;
+    color : #FFF;
+    text-align : center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size : 19px;
+}
+
+
+
+
+/*  ##########################  */
+/*  REUSABLE STYLE CLASSES    */
+
+    /* DROP SHADOW */
+    .dropShadow {
+        -webkit-box-shadow: 0px 2px 9px 0px rgba(50, 50, 50, 0.68);
+        -moz-box-shadow: 0px 2px 9px 0px rgba(50, 50, 50, 0.68);
+        box-shadow: 0px 2px 9px 0px rgba(50, 50, 50, 0.68);
+    }
+    
+    .dropShadow_sml {
+        -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.68);
+        -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.68);
+        box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.68);
+    }
+
+
+
+/*#######################*/
+/*  BOOTSTRAP SCAFOLDING */
+
+    /*TOP NAVIGATION --> go to other pages.. */ 
+        .topNavigation {    
+            position: absolute;
+            background : #287;
+            z-index : 999;
+            left : 0px;
+            top : 0px;
+            width : 100%;
+            height : 32px;
+            position: fixed;
+        }
+
+    /* Main Scrolling Body Content */
+        .mainContent {
+            position: absolute;
+            top: 33px;
+            width : 100%;
+            overflox-x : hidden;
+            overflow-y: auto;
+            padding-bottom : 42px;
+        }
+
+    /* APP TITLE  */
+        .myTitle_bootstrapComponent {
+            opacity : 3;  
+            color : #FFF;
+            font-size : 36px;
+            background: #479;   
+            font-family: 'Arvo';
+        }
+
+
+
+/* HEADER IMAGES  */
+    .header_ImgList_img_container{
+        padding : 8px;
+    }
+
+    .header_ImgList_Img {
+        width : 90%;
+        height : auto;
+    }
+
+
+
+/* Pages Content */
+    /* Main  content for all Body Shit */
+    .ruvoPage_content_container{
+        color : white;
+    }
+
+    /* THIS PAGE TITLE */
+    .ruvo_page_title {
+        font-family: 'Arvo';
+        font-size : 22px;
+    }
+
+    .ruvo_navi_button { 
+    font-size: 20px;
+    color: #000; 
+}
+    .ruvoPage_content_container{
+        background : #545;
+        color : #FFF;
+    }
+    /*  PAGE CONTENT VERBIAGE */
+        .pageContentParagraph {
+            padding-top : 8px;
+            text-indent : 32px;
+            text-align : left;
+        }
+
+        .pageContentHeading{
+            font-style: italic;
+        }
+        .pageContent_TextFooter {
+            padding-top : 8px;
+        }
+
+
+    /* PAGE CONTENT IMAGES  */
+        .pageContent_RightSideImages{
+            background: #FFF;
+            padding : 0px;
+            padding-bottom : 8px;
+        }
+
+        /* Page Content Right Side images */
+        .pageContent_RightSideImage_container {
+            margin-top : 8px;
+        }
+        .pageContent_RightSideImage_container img{
+            width : 100%;
+            height : auto;
+        }
+
+
+
+    /*#@#################*/
+    /* APP FOOTER*/
+        .SweetFooter {
+            background: #222 ;
+            position : fixed;
+            bottom : 0px;
+            width : 100%;
+        }
+
+        .FooterCenterCall2Action {
+            font-size : 20px;
+        }
+
+        /* Bottom Right Footer Text */
+        .Footer_BottomRight {
+            text-align: right;
+            padding-top : 5px;
+            padding-right : 5px;
+            font-size : 15px;
+        }
+        /* SOCIAL NETWORK LINKS  */
+        .socialNetworkLink img {
+            height : 32px;
+        }
+
+/*         END OF BOOTSTRAP SCAFOLDING CSS */
+/* ###################################### */
+
+

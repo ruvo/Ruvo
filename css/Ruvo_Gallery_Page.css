@@ -1,0 +1,18 @@
+
+/*  GALLERY PAGE  */
+    .backgroundIMG_carpet {
+        background-image: url("../img/s22.jpg");
+        text-align : center;
+        padding-top : 10px;
+        padding-bottom : 10px;
+    }
+
+    .galleryImg_container {
+        padding-top : 10px;
+    }
+
+    .galleryImg_container img {
+        border : 1px solid black;
+        width : 90%;
+        height : auto;
+    }
