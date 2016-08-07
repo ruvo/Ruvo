@@ -1,7 +1,7 @@
 body {
     overflow-x : hidden;
-    background : #FFF;
-    color : #FFF;
+    background : #FFF; 
+    color : #000;
     text-align : center;
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size : 19px;
@@ -34,7 +34,8 @@ body {
     /*TOP NAVIGATION --> go to other pages.. */ 
         .topNavigation {    
             position: absolute;
-            background : #287;
+            background : #444;
+            
             z-index : 999;
             left : 0px;
             top : 0px;
@@ -48,7 +49,7 @@ body {
             position: absolute;
             top: 33px;
             width : 100%;
-            overflox-x : hidden;
+            overflow-x : hidden;
             overflow-y: auto;
             padding-bottom : 42px;
         }
@@ -56,50 +57,63 @@ body {
     /* APP TITLE  */
         .myTitle_bootstrapComponent {
             opacity : 3;  
-            color : #FFF;
+            color : #478;
             font-size : 36px;
-            background: #479;   
+            background: #FFF;
             font-family: 'Arvo';
+            padding: 15px;
         }
 
 
 
 /* HEADER IMAGES  */
     .header_ImgList_img_container{
-        padding : 8px;
+        padding : 4px;
+        background: #FFF;
+
     }
 
     .header_ImgList_Img {
-        width : 90%;
+        width : 100%;
         height : auto;
+        background: #FFF;
+        
     }
+
+.h1{
+    background: #D65A4A;
+    width: 100%;
+    font-size: 25px;
+}
 
 
 
 /* Pages Content */
     /* Main  content for all Body Shit */
     .ruvoPage_content_container{
-        color : white;
+        color : #123;
     }
 
     /* THIS PAGE TITLE */
     .ruvo_page_title {
         font-family: 'Arvo';
         font-size : 22px;
+        padding: 5px;
+        background-color: #456;
     }
 
-    .ruvo_navi_button { 
+    .ruvo_navi_button{ 
     font-size: 20px;
-    color: #000; 
-}
+    color: #456; 
+    }
     .ruvoPage_content_container{
-        background : #545;
-        color : #FFF;
+        background : #FFF;
+        color : #121;
     }
     /*  PAGE CONTENT VERBIAGE */
         .pageContentParagraph {
             padding-top : 8px;
-            text-indent : 32px;
+            text-indent : 25px;
             text-align : left;
         }
 
@@ -120,11 +134,12 @@ body {
 
         /* Page Content Right Side images */
         .pageContent_RightSideImage_container {
-            margin-top : 8px;
+            margin-top : 25px;
         }
         .pageContent_RightSideImage_container img{
             width : 100%;
             height : auto;
+            color:; 
         }
 
 
@@ -132,14 +147,14 @@ body {
     /*#@#################*/
     /* APP FOOTER*/
         .SweetFooter {
-            background: #222 ;
-            position : fixed;
+            position : absolute;
+
             bottom : 0px;
             width : 100%;
         }
 
         .FooterCenterCall2Action {
-            font-size : 20px;
+            font-size : 18px;
         }
 
         /* Bottom Right Footer Text */
@@ -152,9 +167,27 @@ body {
         /* SOCIAL NETWORK LINKS  */
         .socialNetworkLink img {
             height : 32px;
+            background-color: #FFF;
         }
 
+.contactForm_Heading {
+    font-size: 25px;
+    background: #D65A4A;
+
+}
+
+.contactForm_Container {
+    font-size: 25px;
+    background: #;
+
+}
+
+.servicesPage_Content_Right_Side_Row {
+  background: #D65A4A;  
+  padding: 1px;
+
+}
 /*         END OF BOOTSTRAP SCAFOLDING CSS */
-/* ###################################### */
+/*  */
 
 
