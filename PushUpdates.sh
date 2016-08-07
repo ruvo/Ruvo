@@ -9,6 +9,8 @@ git push;
 echo ' --> Done Syncing Crowley Carpets  to GITHUB.com';
 
 
+echo '======================================================';
+
 echo ' ----> HAVING PRODUCTION SERVER Update what is live..';
 ssh ubuntu@crowleycarpets.com '/home/ubuntu/Production/push_client_into_server.sh'
 
