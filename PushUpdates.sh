@@ -13,4 +13,9 @@ sleep 2;
 echo ' ----> HAVING PRODUCTION SERVER Update what is live..';
 ssh ubuntu@crowleycarpets.com 'bash -s /home/ubuntu/Production/push_client_into_server.sh'
 
+echo '   --> DONE SYNCING   :  Check your Updates Live';
+echo '   -->  Make sure to clear your Browser Cache & Reload the Pages.';
+
+
+
 
