@@ -4,12 +4,13 @@
 /*####################*/
 /*  Services Page Stylings */
     .services_RightSide_Content {
-        padding-top : 89px;
+        padding-top : 120px;
     }
 
     .servicesPage_Right_Side_Img_container img{
         width : 90%;
         height : auto;
+        background: #FFF;
     }
 
     .servicesPage_Content_Right_Side_Spacer {

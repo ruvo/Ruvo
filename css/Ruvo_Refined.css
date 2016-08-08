@@ -81,12 +81,11 @@ body {
     }
 
 .h1{
-    background: #D65A4A;
+    background: #bce1c5;
     width: 100%;
     font-size: 25px;
+    border: 1px solid 0#bce1c5;
 }
-
-
 
 /* Pages Content */
     /* Main  content for all Body Shit */
@@ -166,13 +165,13 @@ body {
         }
         /* SOCIAL NETWORK LINKS  */
         .socialNetworkLink img {
-            height : 32px;
+            height : 40px;
             background-color: #FFF;
         }
 
 .contactForm_Heading {
     font-size: 25px;
-    background: #D65A4A;
+    background: #896dae;
 
 }
 
@@ -183,8 +182,8 @@ body {
 }
 
 .servicesPage_Content_Right_Side_Row {
-  background: #D65A4A;  
-  padding: 1px;
+  background: 0#bce1c5;  
+ 
 
 }
 /*         END OF BOOTSTRAP SCAFOLDING CSS */
