@@ -13,12 +13,9 @@
     <link rel="stylesheet" type="text/css" href="js/Vendors/bootstrap-theme.css">
     <!-- NORMALIZE CSS ACROSS ALL THE DIFFERENT BROWSERS -->
     <link href='js/Vendors/Normalize.css' rel='stylesheet' type='text/css'>
-
     <!-- Sweet Alert Module  & Modal -->
-        <link href='js/Vendors/swal/sweetalert.css' rel='stylesheet' type='text/css'>
-        <script type='text/javascript' src='js/Vendors/swal/sweetalert.min.js'></script>
-        
-
+    <link href='js/Vendors/swal/sweetalert.css' rel='stylesheet' type='text/css'>
+    <script type='text/javascript' src='js/Vendors/swal/sweetalert.min.js'></script>
     <!--  GOOGLE FONTS  -->
     <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Seaweed+Script' rel='stylesheet' type='text/css'>
@@ -28,25 +25,26 @@
     <!-- CSS Styling  -->
     <link href='css/Ruvo_Refined.css' rel='stylesheet' type='text/css'>
     <link href='css/Ruvo_Contact_Page.css' rel='stylesheet' type='text/css'>
-
-<!-- Google Analytics -->
+    <!-- Google Analytics -->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-81716634-1', 'auto');
-      ga('send', 'pageview');
-
-    </script> 
-
+    ga('create', 'UA-81716634-1', 'auto');
+    ga('send', 'pageview');
+    </script>
     <!--  MY JAVASCRIPT THAT STARTS AT RUNTIME  -->
     <script type='text/javascript' src='js/RuvoCodes.js'></script>
-
     <script type='text/javascript' src='js/Ruvo_ContactForm.js'></script>
-    
-
 </head>
 <!-- BODY CONTENT -->
 
@@ -119,7 +117,8 @@
                     <div class="col-xs-12 col-sm-5">
                         <p class="center-block">
                             <!-- HEADING PARAGRAPH OF CONTENT  -->
-                          <br/>  <div class='pageContentHeading'>
+                            <br/>
+                            <div class='pageContentHeading'>
                                 For enquiries about a quote for a project please call us or send an email right away You can also fill in the form below
                             </div>
                             <!-- Horizontal Line -->
@@ -135,68 +134,57 @@
                             <!-- Right Side IMAGES LIST  -->
                     </div>
                     <div class='contactForm_Container col-xs-12 col-sm-7 '>
-                            <div class='col-xs-12 contactForm_ROW contactForm_Heading'>
-                                Tell Us About your Carpet Project
-                            </div>
-
-                            <div class='col-xs-12 contactForm_ROW'>
-                                <!-- SELECT YOUR TITLE -->
-                                <label class='contactForm_Input_Label'> Title </label>
-                                <select size="1" class='contactForm_title_dropdown'>
-                                    <option value="">Select</option>
-                                    <option value="Mr">Mr.</option>
-                                    <option value="Mrs">Mrs.</option>
-                                    <option value="Miss">Miss</option>
-                                    <option value="Ms">Ms.</option>
-                                    <option value="Dr">Dr.</option>
-                                    <option value="Prof">Prof.</option>
-                                    <option value="Other">Other</option>
-                                </select>
-                            </div>
-
-                            <!-- INPUT NAME  -->
-                            <div class='col-xs-12 contactForm_ROW'>
-                                <div class='contactForm_Input_Label'> Name :</div>
-                                <input id='contactForm_input_name' placeholder='Enter Your Name'>
-                            </div>
-
-                            <!-- INPUT Email Address  -->
-                            <div class='col-xs-12 contactForm_ROW'>
-                                <div class='contactForm_Input_Label'> E-mail Address :</div>
-                                <input id='contactForm_input_email' placeholder='Enter Your Email Address'>
-                            </div>
-
-                            <!-- INPUT Phone Number  -->
-                            <div class='col-xs-12 contactForm_ROW'>
-                                <div class='contactForm_Input_Label'> Phone Number :</div>
-                                <input id='contactForm_input_phone' placeholder='Enter Your Phone Number'>
-                            </div>
-
-                            <!-- INPUT WebSite Address  -->
-                            <div class='col-xs-12 contactForm_ROW'>
-                                <div class='contactForm_Input_Label'> Website Address :</div>
-                                <input id='contactForm_input_website' placeholder='Enter your Website Address'>
-                            </div>
-
-                            <!-- INPUT Message Subject Line -->
-                            <div class='col-xs-12 contactForm_ROW'>
-                                <div class='contactForm_Input_Label'> Message Subject</div>
-                                <input id='contactForm_input_subjectLine' placeholder='Message Subject Line'>
-                            </div>
-
-                            <!-- INPUT Message Subject  -->
-                            <div class='col-xs-12 contactForm_ROW'>
-                                <div class='contactForm_Input_Label'> Message</div>
-                                <textarea id='contactForm_MainMessage' placeholder='Tell us About Your Project' name="message" rows="5" required="true"></textarea>
-                            </div>
-
-                            <!-- SEND FORM BUTTON -->
-                            <div class='col-xs-12 contactForm_ROW'>
-                                <button id='SubmitContactFormButton'> Send Message </button>
-                            </div>
-                        
-
-
+                        <div class='col-xs-12 contactForm_ROW contactForm_Heading'>
+                            Tell Us About your Carpet Project
+                        </div>
+                        <div class='col-xs-12 contactForm_ROW'>
+                            <!-- SELECT YOUR TITLE -->
+                            <label class='contactForm_Input_Label'> Title </label>
+                            <select size="1" class='contactForm_title_dropdown'>
+                                <option value="">Select</option>
+                                <option value="Mr">Mr.</option>
+                                <option value="Mrs">Mrs.</option>
+                                <option value="Miss">Miss</option>
+                                <option value="Ms">Ms.</option>
+                                <option value="Dr">Dr.</option>
+                                <option value="Prof">Prof.</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <!-- INPUT NAME  -->
+                        <div class='col-xs-12 contactForm_ROW'>
+                            <div class='contactForm_Input_Label'> Name :</div>
+                            <input id='contactForm_input_name' placeholder='Enter Your Name'>
+                        </div>
+                        <!-- INPUT Email Address  -->
+                        <div class='col-xs-12 contactForm_ROW'>
+                            <div class='contactForm_Input_Label'> E-mail Address :</div>
+                            <input id='contactForm_input_email' placeholder='Enter Your Email Address'>
+                        </div>
+                        <!-- INPUT Phone Number  -->
+                        <div class='col-xs-12 contactForm_ROW'>
+                            <div class='contactForm_Input_Label'> Phone Number :</div>
+                            <input id='contactForm_input_phone' placeholder='Enter Your Phone Number'>
+                        </div>
+                        <!-- INPUT WebSite Address  -->
+                        <div class='col-xs-12 contactForm_ROW'>
+                            <div class='contactForm_Input_Label'> Website Address :</div>
+                            <input id='contactForm_input_website' placeholder='Enter your Website Address'>
+                        </div>
+                        <!-- INPUT Message Subject Line -->
+                        <div class='col-xs-12 contactForm_ROW'>
+                            <div class='contactForm_Input_Label'> Message Subject</div>
+                            <input id='contactForm_input_subjectLine' placeholder='Message Subject Line'>
+                        </div>
+                        <!-- INPUT Message Subject  -->
+                        <div class='col-xs-12 contactForm_ROW'>
+                            <div class='contactForm_Input_Label'> Message</div>
+                            <textarea id='contactForm_MainMessage' placeholder='Tell us About Your Project' name="message" rows="5" required="true"></textarea>
+                        </div>
+                        <!-- SEND FORM BUTTON -->
+                        <div class='col-xs-12 contactForm_ROW'>
+                            <button id='SubmitContactFormButton'> Send Message </button>
+                        </div>
                     </div>
                 </div>
                 <!-- Horizontal line -->
@@ -205,31 +193,26 @@
                 </div>
             </div>
         </div>
-
-
-
- <!-- FOOTER -->
-    <div class='SweetFooter'>
-        <!-- FOOTER SOCIAL NETWORKS -->
-        <div class='col-xs-4 footer_socialNetworks'>
-            <!-- Facebook-->
-            <span class='socialNetworkLink col-xs-4 col-sm-2'>
+        <!-- FOOTER -->
+        <div class='SweetFooter'>
+            <!-- FOOTER SOCIAL NETWORKS -->
+            <div class='col-xs-4 footer_socialNetworks'>
+                <!-- Facebook-->
+                <span class='socialNetworkLink col-xs-4 col-sm-2'>
                 <a href= 'https://www.facebook.com/crowleycarpets/' target="_blank"><img src='img/fbicon.png' /></a>
             </span>
-            <!-- Twitter Social Network Button-->
-            <span class='socialNetworkLink col-xs-4 col-sm-2'>
+                <!-- Twitter Social Network Button-->
+                <span class='socialNetworkLink col-xs-4 col-sm-2'>
                 <a href= 'https://twitter.com/CrowleyCarpets' target="_blank"><img src='img/twitter.png' /></a>
             </span>
-            <!-- GooglePlus  Social Network Button-->
-            <span class='socialNetworkLink col-xs-4 col-sm-2'>
+                <!-- GooglePlus  Social Network Button-->
+                <span class='socialNetworkLink col-xs-4 col-sm-2'>
                <a href= 'https://plus.google.com/u/2/109264578313281273288' target="_blank"><img src='img/google.png' /></a>
             </span>
+            </div>
+            <div class='col-xs-4 FooterCenterCall2Action'> Call (303) 882-8069</div>
+            <div class='col-xs-4 Footer_BottomRight'>All right reserved Crowley Carpets &copy 2016</div>
         </div>
-        
-        <div class='col-xs-4 FooterCenterCall2Action'> Call (303) 882.8069</div>
-        
-        <div class='col-xs-4 Footer_BottomRight'>All right reserved Crowley Carpets, LLC &copy 2016</div>
-    </div>
 </body>
 
 </html>
