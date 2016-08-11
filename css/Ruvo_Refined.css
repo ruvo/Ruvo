@@ -122,6 +122,12 @@ body {
 .header_ImgList_img_container {
     padding: 4px;
     background: #FFF;
+    width: 130px;
+    height: auto;
+    right: 180px;
+    bottom: 100px;
+    position: relative;
+    
 }
 
 .header_ImgList_Img {
@@ -132,9 +138,9 @@ body {
 }
 
 .h1 {
-    color: #FFF;
+    color: #333;
     width: 100%;
-    font-size: 25px;
+    font-size: 21px;
     border: 1px solid #bce1c5;
 }
 
@@ -335,6 +341,10 @@ body {
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
-    background: #0471af
+    background: #FFF;
+}
+
+.audioSample {
+    background:#789;
 }
 
