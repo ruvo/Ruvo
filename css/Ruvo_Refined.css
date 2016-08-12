@@ -106,14 +106,19 @@ body {
 
 
 /* APP TITLE  */
+#APP_TITLE_BAR {
+    background: #aeaeae;
+}
 
 .myTitle_bootstrapComponent {
     opacity: 3;
     color: #333;
     font-size: 36px;
-    background: #FFF;
     font-family: 'Arvo';
-    padding: 15px;
+    height : 100%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 
