@@ -47,7 +47,16 @@ body {
     height: 32px;
 }
 
-
+.noFeaturette_Title {
+    margin-top : 10px;
+}
+.songLink {
+    margin-bottom : 10px;
+}
+.songLINK_TITLE a {
+    color : #333;
+    margin-top: 50px;
+}
 
 /* Main Scrolling Body Content */
 
@@ -72,7 +81,7 @@ body {
 
 /* HEADER IMAGES  */
 .header_ImgList {
-    background : red;
+    
 }
 
 .header_ImgList_img_container {
@@ -116,7 +125,6 @@ body {
 }
 
 .ruvoPage_content_container {
-    background: #FFF;
     color: #333;
 }
 
@@ -157,7 +165,7 @@ body {
 .pageContent_RightSideImage_container img {
     width: 100%;
     height: auto;
-    color: ;
+    margin-top: 30px;
 }
 
 
@@ -285,3 +293,10 @@ body {
     background:#789;
 }
 
+.soundReel {
+    margin-top: 30px;
+}
+
+.songLink {
+    margin-top: 80px;
+}

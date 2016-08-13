@@ -1,6 +1,10 @@
+<!--  ABOUT US / HOME PAGE /  index.html  -->
+<!-- ###################################  -->
 <html>
+<!-- HEAD TAG   -->
 
 <head>
+    <!-- TITLE SHOWS IN THE BROWSER TAB AND WINDOWS TASKBAR -->
     <title>Ruvo - Professional Sound Design</title>
     <!--  JQUERY  -->
     <script type='text/javascript' src='js/Vendors/jquery.js'></script>
@@ -9,11 +13,20 @@
     <link rel="stylesheet" type="text/css" href="js/Vendors/bootstrap-theme.css">
     <!-- NORMALIZE CSS ACROSS ALL THE DIFFERENT BROWSERS -->
     <link href='js/Vendors/Normalize.css' rel='stylesheet' type='text/css'>
+    <!-- Sweet Alert Module  & Modal -->
+    <link href='js/Vendors/swal/sweetalert.css' rel='stylesheet' type='text/css'>
+    <script type='text/javascript' src='js/Vendors/swal/sweetalert.min.js'></script>
+
     <!--  GOOGLE FONTS  -->
     <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Seaweed+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+
+    <!-- CSS Styling  -->
+    <link href='css/Ruvo_Refined.css' rel='stylesheet' type='text/css'>
+    <link href='css/Ruvo_Contact_Page.css' rel='stylesheet' type='text/css'>
     <!-- Google Analytics -->
     <script>
     (function(i, s, o, g, r, a, m) {
@@ -31,136 +44,117 @@
     ga('create', 'UA-81716634-1', 'auto');
     ga('send', 'pageview');
     </script>
-    <!-- CSS Styling  -->
-    <link href='css/Ruvo_Refined.css' rel='stylesheet' type='text/css'>
-    <link href='css/Ruvo_Gallery_Page.css' rel='stylesheet' type='text/css'>
     <!--  MY JAVASCRIPT THAT STARTS AT RUNTIME  -->
     <script type='text/javascript' src='js/RuvoCodes.js'></script>
-    <link rel="shortcut icon" href="img/iLogo2.ico" type="image/x-icon">
-    <link rel="icon" href="img/iLogo2.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="img/iLogo2.ico" type="image/x-icon">
+    <script type='text/javascript' src='js/Ruvo_ContactForm.js'></script>
+
     <link rel="icon" href="img/iLogo2.ico" type="image/x-icon">
 </head>
+<!-- BODY CONTENT -->
 
 <body>
-        <!-- TOP NAVIGATION -->
-   <div class='container topNavigation'>
+    <!-- ############## : LINKS TO OTHER PAGES-->
+ <!-- TOP NAVIGATION -->
+    <div class='container topNavigation'>
         <!--  Page Link - About  -->
         <div class='ruvo_navi_button col-xs-2 col-xs-offset-1'>
-            <a href="about.html" target="_self">About </a>
+            <a href="/index.html" target="_self">About </a>
         </div>
         <!--  Page Link - Services  -->
         <div class='ruvo_navi_button col-xs-2'>
-            <a href="services.html" target="_self">Services </a>
+            <a href="/services.html" target="_self">Services </a>
         </div>
         <!--  Page Link - Gallery  -->
         <div class='ruvo_navi_button col-xs-2'>
-            <a href="samples.html" target="_self">Samples </a>
+            <a href="/samples.html" target="_self">Samples </a>
         </div>
-        
-        <div class='ruvo_navi_button col-xs-2'>
-            <a href="store.html" target="_self">Store </a>
-        </div>
-     
+      
         <!--  Page Link - Pricing  -->
         <!--  Page Link - Contact Us  -->
         <div class='ruvo_navi_button col-xs-2'>
-            <a href="contactus.html" target="_self">Contact </a>
+            <a href="/store.html" target="_self">Store </a>
         </div>
-    </div>  
-    <div class='mainContent col-xs-12'>
-        <div class='col-xs-12 myTitle_bootstrapComponent'>
-            Ruvo - Professional Sound Design
+        <div class='ruvo_navi_button col-xs-2'>
+            <a href="/contactus.html" target="_self">Contact </a>
         </div>
-            <div class='col-xs-4 col-sm-4 col-md-2 col-md-offset-3 header_ImgList_img_container'>
-                <img class='header_ImgList_Img dropShadow_sml' src='img/iLogo.jpg'>
+    </div>
+
+    <!-- ############## -->
+    <!--   App Body     -->
+    <div class='mainContent'>
+        <!-- ############## -->
+        <!--  COMPANY NAME &  LOGO  - Inside mainContent -->
+        <div class='xs-col-12 header_content_row'>  
+            <!--  ################### -->
+            <!-- ONE HEADER IMAGE -->
+            <div class='col-xs-3 col-md-2'>
+                <img class='ruvoLogo dropShadow_sml img-rounded' src='img/iLogo.jpg' style='margin-bottom : 10px;'>
             </div>
 
-            <div class='storeMerch col-xs-12'><h> Merchandise Coming Soon!</h></div>
-        <!-- ONE HEADER IMAGE -->
-        <!--   <div class='col-xs-12 background_carpet img-rounded'>
-            <div class='col-xs-12 carpet_Types'>
-              <br>  <div class='carpetTypes_Header'> Types of Carpet </div>
-              <br/><div> <a href ='www.google.com' class ='carpetType_Links'>Berber</a> </div>
-             <div>  <a href ='www.google.com' class ='carpetType_Links'>Cut Un-Cut</a> </div>
-              <div>  <a href ='www.google.com' class ='carpetType_Links'>Frieze</a> </div>
-              <div>  <a href ='www.google.com' class ='carpetType_Links'>Indoor-Outdoor</a> </div>
-              <div>  <a href ='www.google.com' class ='carpetType_Links'>Luxury Carpet</a> </div>
-               <div> <a href ='www.google.com' class ='carpetType_Links'>Small Lots</a> </div>
-               <div> <a href ='www.google.com' class ='carpetType_Links'>Stanton</a> </div>
-              <div>  <a href ='www.google.com' class ='carpetType_Links'>Textured</a> </div>
+            <!-- My Title for the app ->  Entire width of window -->
+            <div class='myTitle_bootstrapComponent col-xs-9 col-md-8'>
+                Ruvo - Professional Sound Design
             </div>
-            <div class='col-xs-12 padding_Types'>
-               <br/> <div class='paddingTypes_Header'> Types of Padding </div>
-                <br/><div><a href ='www.google.com' class ='carpetType_Links'>Mohawk</a></div>
-               <div><a href ='www.google.com' class ='carpetType_Links'>Rebond</a></div>
-               <div> <a href ='www.google.com' class ='carpetType_Links'>Rubber</a></div>
-               <div> <a href ='www.google.com' class ='carpetType_Links'>Stainmaster</a></div>
-               <div> <a href ='https://www.google.com/' class ='carpetType_Links'>Synthetic</a> </div>
-               <div> <a href ='https://www.google.com/' class ='carpetType_Links'>Tred-Mor</a> </div>
-               <div> <a href ='https://www.google.com/' class ='carpetType_Links'>  Wool</a> </div>
-            </div> -->
-       <!-- <div class='galleryImg_container col-xs-3'>
-            <img src='img/s1.jpg' class=' s1  dropShadow img-rounded' />
         </div>
-        <div class='galleryImg_container  col-xs-3'>
-            <img src='img/s4.jpg' class=' s1 dropShadow img-rounded' />
+
+
+
+
+        <!--  ################### -->
+        <!-- HEADER IMAGE LIST    INSIDE mainContent  --
+
+
+
+        <!--  MAIN PAGE CONTENT - such as the form on contact -->
+        <div class='col-xs-12 ruvoPage_content_container'>
+            <!-- Horizontal line -->
+            <div class='col-xs-12'>
+                <hr>
+            </div>
+            <!-- PAGE TITLE -->
+            <div class='col-xs-12 ruvo_page_title'>
+                Store
+            <div> Merchandise coming soon! </div>
+            </div>
+            <!-- MAIN PAGE CONTENT AREA -->
+            
+            
+                    
+
+
+                    <!-- Horizontal line -->
+                    <div class='col-xs-12'>
+                        <hr>
+                    </div>
+
+                </div>
+        
+
+
+
+        <!-- FOOTER -->
+
+    </div>  <!-- END OF MAIN CONTENT CONTAINTER  -->
+        <div class='SweetFooter'>
+            <!-- FOOTER SOCIAL NETWORKS -->
+            <div class='col-xs-4 footer_socialNetworks'>
+                <!-- Facebook-->
+                <span class='socialNetworkLink col-xs-4 col-sm-2'>
+                <a href= 'https://www.facebook.com/ruvosounds/' target="_blank"><img src='img/fbicon.png' /></a>
+            </span>
+                <!-- Twitter Social Network Button-->
+                <span class='socialNetworkLink col-xs-4 col-sm-2'>
+                <a href= 'https://twitter.com/Ruvo2604' target="_blank"><img src='img/twitter.png' /></a>
+            </span>
+                <!-- GooglePlus  Social Network Button-->
+                <span class='socialNetworkLink col-xs-4 col-sm-2'>
+               <a href= 'https://www.linkedin.com/in/joshua-crowley-628301114?trk=nav_responsive_tab_profile_pic' target="_blank"><img src='img/linkedin.png' /></a>
+            </span>
+            </div>
+            <div class='col-xs-4 FooterCenterCall2Action'> Call (303) 882-8069</div>
+            <div class='col-xs-4 Footer_BottomRight'>All rights reserved Ruvo &copy 2015-2016</div>
         </div>
-        <div class='galleryImg_container  col-xs-3'>
-            <img src='img/s5.jpg' class=' s1 dropShadow img-rounded' />
-        </div>
-        <div class='galleryImg_container  col-xs-3'>
-            <img src='img/s6.jpg' class='s1 dropShadow img-rounded' />
-        </div>
-        <div class='galleryImg_container  col-xs-3'>
-            <img src='img/s9.jpg' class='s1 dropShadow img-rounded' />
-        </div>
-        <div class='galleryImg_container  col-xs-3'>
-            <img src='img/s10.jpg' class='s1 dropShadow img-rounded' />
-        </div>
-        <div class='galleryImg_container  col-xs-3'>
-            <img src='img/s11.jpg' class='s1 dropShadow img-rounded' />
-        </div>
-        <div class='galleryImg_container  col-xs-3'>
-            <img src='img/s12.jpg' class='s1 dropShadow img-rounded' />
-        </div>
-        <div class='galleryImg_container  col-xs-3'>
-            <img src='img/s13.jpg' class='s1 dropShadow img-rounded' />
-        </div>
-        <div class='galleryImg_container  col-xs-3'>
-            <img src='img/s14.jpg' class='s1 dropShadow img-rounded' />
-        </div>
-        <div class='galleryImg_container  col-xs-3'>
-            <img src='img/s15.jpg' class='s1 dropShadow img-rounded' />
-        </div>
-        <div class='galleryImg_container  col-xs-3'>
-            <img src='img/s16.jpg' class='s1 dropShadow img-rounded' />
-        </div> -->
-    <!-- FOOTER -->
-    </div>
-    <div class='SweetFooter'>
-        <!-- FOOTER SOCIAL NETWORKS -->
-        <div class='col-xs-4 footer_socialNetworks'>
-            <!-- Facebook-->
-            <span class='socialNetworkLink col-xs-4 col-sm-2'>
-                    <a href= 'https://www.facebook.com/ruvosounds/' target="_blank"><img src='img/fbicon.png' /></a>
-                </span>
-            <!-- Twitter Social Network Button-->
-            <span class='socialNetworkLink col-xs-4 col-sm-2'>
-                    <a href= 'https://twitter.com/Ruvo2604' target="_blank"><img src='img/twitter.png' /></a>
-                </span>
-            <!-- GooglePlus  Social Network Button-->
-            <span class='socialNetworkLink col-xs-4 col-sm-2'>
-                   <a href= 'https://www.linkedin.com/in/joshua-crowley-628301114?trk=nav_responsive_tab_profile_pic' target="_blank"><img src='img/linkedin.png' /></a>
-                </span>
-        </div>
-        <div class='col-xs-4 FooterCenterCall2Action'>
-            Call (303) 882-8069
-        </div>
-        <div class='col-xs-4 Footer_BottomRight'>
-            All rights reserved Ruvo &copy 2016
-        </div>
-    </div>
+
 </body>
 
 </html>

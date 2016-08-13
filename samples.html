@@ -40,6 +40,7 @@
     <link href='css/Ruvo_Refined.css' rel='stylesheet' type='text/css'>
     <!--  MY JAVASCRIPT THAT STARTS AT RUNTIME  -->
     <script type='text/javascript' src='js/RuvoCodes.js'></script>
+    <link rel="icon" href="img/iLogo2.ico" type="image/x-icon">
 </head>
 <!-- BODY CONTENT -->
 
@@ -49,149 +50,114 @@
     <div class='container topNavigation'>
         <!--  Page Link - About  -->
         <div class='ruvo_navi_button col-xs-2 col-xs-offset-1'>
-            <a href="about.html" target="_self">About </a>
+            <a href="/index.html" target="_self">About </a>
         </div>
         <!--  Page Link - Services  -->
         <div class='ruvo_navi_button col-xs-2'>
-            <a href="services.html" target="_self">Services </a>
+            <a href="/services.html" target="_self">Services </a>
         </div>
         <!--  Page Link - Gallery  -->
         <div class='ruvo_navi_button col-xs-2'>
-            <a href="samples.html" target="_self">Samples </a>
-        </div>
-        <div class='ruvo_navi_button col-xs-2'>
-            <a href="store.html" target="_self">Store </a>
+            <a href="/samples.html" target="_self">Samples </a>
         </div>
         <!--  Page Link - Pricing  -->
         <!--  Page Link - Contact Us  -->
         <div class='ruvo_navi_button col-xs-2'>
-            <a href="contactus.html" target="_self">Contact </a>
+            <a href="/store.html" target="_self">Store </a>
+        </div>
+        <div class='ruvo_navi_button col-xs-2'>
+            <a href="/contactus.html" target="_self">Contact </a>
         </div>
     </div>
     <!-- ############## -->
     <!--   App Body     -->
-    <div class='mainContent'>
+<div class='mainContent'>
         <!--  ################### -->
         <!-- My Title for the app ->  Entire width of window -->
-        <div class='myTitle_bootstrapComponent col-xs-12'>
-            Ruvo - Professional Sound Design
-        </div>
-        <!--  ################### -->
-        <!-- HEADER IMAGE LIST -->
-        <div class='header_ImgList col-xs-12'>
+       <!--  COMPANY NAME &  LOGO  - Inside mainContent -->
+        <div class='xs-col-12 header_content_row'>  
+            <!--  ################### -->
             <!-- ONE HEADER IMAGE -->
-            <div class='col-xs-4 col-sm-4 col-md-2 col-md-offset-3 header_ImgList_img_container'>
-                <img class='header_ImgList_Img dropShadow_sml' src='img/iLogo.jpg'>
+            <div class='col-xs-3 col-md-2'>
+                <img class='ruvoLogo dropShadow_sml img-rounded' src='img/iLogo.jpg' style='margin-bottom : 10px;'>
             </div>
-            <!-- ONE HEADER IMAGE -->
-            <br/>
-            <div class='col-xs-6'>
+
+            <!-- My Title for the app ->  Entire width of window -->
+            <div class='myTitle_bootstrapComponent col-xs-9 col-md-8'>
+                Ruvo - Professional Sound Design
+            </div>
+            <div class='col-xs-12'>
                 <p class='h1 col-xs-6'>
                     Check out our latest collection of audio samples. Each sample is available for commercial use. Please contact us for rates.
                 </p>
             </div>
         </div>
-        <!--  ################### -->
-        <!--  PAGE CONTENT -->
-        <div class='col-xs-12 ruvoPage_content_container'>
-            <!-- Horizontal line -->
-            <div class='col-xs-12'>
-                <hr>
-            </div>
-            <!-- PAGE TITLE -->
-            <div class='col-xs-12 ruvo_page_title'>
-                Samples
-            </div>
-            <!-- MAIN PAGE CONTENT AREA -->
-            <br/>
-            <div class="feature container">
-                <hr class="featurette-divider" />
-                <!-- MAIN PAGE CONTENT -->
-                <div class="row featurette">
-                    <!-- PAGE VERBIAGE -->
-                    <div class="col-xs-12 col-sm-5">
-                        <p class="center-block">
-                            <!-- HEADING PARAGRAPH OF CONTENT  -->
-                            <br/>
-                            <div class='pageContentHeading'>
-                                Here is our current sound design reel:
-                            </div>
-                            <!-- Horizontal Line -->
-                            <hr/>
-                            <!-- Main Paragraphs go HERE -->
-                            <br/>
-                            <div class='pageContentParagraph'>
-                                Alcove
-                            </div>
-                            <br/>
-                            <audio controls class='audioSample'>
-                                <source src="mp3/Alcove.mp3" type="audio/mpeg">
-                            </audio>
-                            <div class='pageContentParagraph'>
-                                Mali
-                            </div>
-                            <br/>
-                            <audio controls class='audioSample'>
-                                <source src="mp3/Mali.mp3" type="audio/mpeg">
-                            </audio>
-                            <div class='pageContentParagraph'>
-                                Claw
-                            </div>
-                            <br/>
-                            <audio controls class='Claw'>
-                                <source src="mp3/Claw.mp3" type="audio/mpeg">
-                            </audio>
-                            <div class='pageContentParagraph'>
-                                Tokyo
-                            </div>
-                            <br/>
-                            <audio controls class='audioSample'>
-                                <source src="mp3/Tokyo.mp3" type="audio/mpeg">
-                            </audio>
-                            <div class='pageContentParagraph'>
-                                Blinded
-                            </div>
-                            <br/>
-                            <audio controls class='audioSample'>
-                                <source src="mp3/Blinded.mp3" type="audio/mpeg">
-                            </audio>
-                            <div class='pageContentParagraph'>
-                                Molten
-                            </div>
-                            <br/>
-                            <audio controls class='audioSample'>
-                                <source src="mp3/Molten.mp3" type="audio/mpeg">
-                            </audio>
-                        </p>
-                    </div>
-                    <!-- Right Side IMAGES LIST  -->
-                    <br/>
-                    <br/>
-                    <br/>
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-1 pageContent_RightSideImages img-rounded">
-                        <!--  ONE ROW OF IMAGES -->
-                        <!-- One Specific Image Item -->
-                        <div class=' s1 col-xs-12 pageContent_RightSideImage_container'>
-                            <img src='img/r7.jpg' class='img-rounded dropShadow_sml'>
-                            <h2>Make your videos cinematic with sound</h2>
-                        </div>
-                    </div>
-                    <div class='col-xs-12'>
-                        <!--<div class='pageContent_TextFooter'>-->
-                        <br/>
-                        <br/> Contact us now on (303) 882-8069
-                        <br/>
+            <!-- ONE HEADER IMAGE -->
+            
+        
+
+
+    <!--  SIMPLE PAGE CONTENT - WITHOUT FEATURETTE -->
+    <div id='ThisPage_Content' class='col-xs-12'>
+            
+        <!-- PAGE TITLE -->
+        <div class='col-xs-12 ruvo_page_title noFeaturette_Title'>
+            Samples
+        </div>
+
+        <!-- MAIN PAGE CONTENT AREA -->
+        <div class="soundReel col-xs-12 col-sm-5">
+                <!-- HEADING PARAGRAPH OF CONTENT  -->
+                <div class='pageContentHeading col-xs-12'>
+                    Here is our current sound design reel:
+                </div>
+                <!-- Horizontal Line -->
+                <hr/>
+                <!-- ONE SONG BUTTON -->
+                <div class='songLink col-xs-6 '>
+                    <div class='songLINK_TITLE'>
+                        <a href='#'> Alcove </a>
                     </div>
                 </div>
-            </div>
-            <!-- Horizontal line -->
-            <div class='col-xs-12'>
-                <hr>
-            </div>
+                <!-- ONE SONG BUTTON -->
+                <div class='songLink col-xs-6 '>
+                    <div class='songLINK_TITLE'>
+                        <a href='#'> Mali </a>
+                    </div>
+                </div>
+                <!-- ONE SONG BUTTON -->
+                <div class='songLink col-xs-6 '>
+                    <div class='songLINK_TITLE'>
+                        <a href='#'> Claw </a>
+                    </div>
+                </div>
+                <div class='songLink col-xs-6 '>
+                    <div class='songLINK_TITLE'>
+                        <a href='#'> Tokyo </a>
+                    </div>
+                </div>
+                <div class='songLink col-xs-6 '>
+                    <div class='songLINK_TITLE'>
+                        <a href='#'> Blinded </a>
+                    </div>
+                </div>
+                <div class='songLink col-xs-6 '>
+                    <div class='songLINK_TITLE'>
+                        <a href='#'> Molten </a>
+                    </div>
+                </div>
         </div>
-        <!--  END OF CONTENT -->
-        <!-- FOOTER -->
-        <div class='SweetFooter'>
+ 
+        <div class="col-xs-12 col-sm-offset-1 col-sm-6  pageContent_RightSideImages img-rounded">
+            <!--  ONE ROW OF IMAGES -->
+            <!-- One Specific Image Item -->
+            <div class=' s1 col-xs-12 pageContent_RightSideImage_container'>
+                <img src='img/soundDesign.jpg' class='img-rounded dropShadow_sml'>
+                <h2>Make your videos cinematic with sound</h2>
+            </div>
+        </div>        
+    </div> <!--  End Of   ThisPage_Content  -->
+   <div class='SweetFooter'>
             <!-- FOOTER SOCIAL NETWORKS -->
             <div class='col-xs-4 footer_socialNetworks'>
                 <!-- Facebook-->
@@ -207,10 +173,16 @@
                    <a href= 'https://www.linkedin.com/in/joshua-crowley-628301114?trk=nav_responsive_tab_profile_pic' target="_blank"><img src='img/linkedin.png' /></a>
                 </span>
             </div>
-            <div class='col-xs-4 FooterCenterCall2Action'> Call (303) 882.8069</div>
-            <div class='col-xs-4 Footer_BottomRight'>All rights reserved Ruvo &copy 2015-2016</div>
+            <div class='col-xs-4 FooterCenterCall2Action'>
+                Call (303) 882-8069
+            </div>
+            <div class='col-xs-4 Footer_BottomRight'>
+                All rights reserved Ruvo &copy 2015-2016
+            </div>
         </div>
-    </div>
+   
+</div> <!-- MAIN CONTENT CLOSE TAG -->
+
 </body>
 
 </html>
