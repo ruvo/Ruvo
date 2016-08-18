@@ -73,7 +73,7 @@ body {
 .myTitle_bootstrapComponent {
     opacity: 3;
     color: #333;
-    font-size: 36px;
+    font-size: 60px;
     font-family: 'Arvo';
     padding-top : 10px;
 }
@@ -150,7 +150,7 @@ body {
 /* PAGE CONTENT IMAGES  */
 
 .pageContent_RightSideImages {
-    background: #FFF;
+    background: #8c7373;
     padding: 0px;
     padding-bottom: 8px;
 }
@@ -163,8 +163,8 @@ body {
 }
 
 .pageContent_RightSideImage_container img {
-    width: 100%;
-    height: auto;
+    width: 80%;
+    height: 70%;
     margin-top: 30px;
 }
 
@@ -219,15 +219,12 @@ body {
 }
 
 .infoPara {
-    background: #0471af;
-    
     font-family: 'Arvo';
     font-size: 15px;
     color: #FFF;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
-    background: #0471af
     
 }
 
