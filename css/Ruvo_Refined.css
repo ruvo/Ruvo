@@ -153,19 +153,19 @@ body {
 .pageContent_RightSideImages {
     background: #8c7373;
     padding-top: 100px;
-    padding-bottom: 8px;
+    padding-bottom: 100px;
 }
 
 
 /* Page Content Right Side images */
 
 .pageContent_RightSideImage_container {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
-.pageContent_RightSideImage_container img {
-    width: 80%;
-    height: 70%;
+.pageContent_RightSideImage_container {
+    width: 100%;
+    height: auto;
     margin-top: 30px;
 }
 
