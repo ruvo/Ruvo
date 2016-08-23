@@ -151,7 +151,7 @@ body {
 /* PAGE CONTENT IMAGES  */
 
 .pageContent_RightSideImages {
-    background: #8c7373;
+    background: #FFF;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -179,6 +179,7 @@ body {
     position: absolute;
     bottom: 0px;
     width: 100%;
+
 }
 
 .FooterCenterCall2Action {
@@ -298,3 +299,17 @@ body {
 .songLink {
     margin-top: 80px;
 }
+
+.upcomingShows {
+    background: #789;
+}
+
+.widget_iframe{
+right: 50px;
+background: red;
+}
+
+.footer_Bar {
+    margin-top: 50px;
+}
+
